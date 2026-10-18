@@ -12,7 +12,7 @@ Este repositorio contiene documentación y configuración ficticia. No incluye m
 | Voz | Qwen3-TTS 0.6B y 1.7B Base | Síntesis en español y clonación con referencia sintética; selector y transcripción probados mediante la API del panel; revisión visual pendiente |
 | Música | ACE-Step 1.5 Turbo | Instrumentales y canto en español revisado; dos versos audibles en una muestra de 30 s, letra completa pendiente |
 | Rostros | FaceFusion y GFPGAN 1.4 | Intercambio y restauración probados con material de demostración; calidad dependiente de la referencia |
-| Video IA | Wan 2.1 T2V 1.3B | Vista previa de 512 × 288 verificada; prueba de 832 × 480 completada; VAE en GPU reduce el tiempo, conserva límites visuales |
+| Video IA | Wan 2.1 T2V 1.3B | Vista previa de 512 × 288 hasta 65 fotogramas probada desde el panel; VAE en GPU acelera 480p, con límites visuales |
 | Edición | FFmpeg, Shotcut, Audacity | Herramientas locales de conversión y edición instaladas |
 
 El perfil de referencia tiene una GPU de **8 GB de VRAM** y **16 GB de RAM**. Una prueba funcional no demuestra que un modelo sea el mejor para todos los casos.
