@@ -21,7 +21,7 @@ El objetivo es escoger la mejor calidad que se pueda demostrar en el hardware di
 
 La duración máxima de cuatro segundos ofrecida por el panel produjo 65 fotogramas a 512 × 288. El recorrido real tardó aproximadamente 104 segundos, incluido el arranque, con pico muestreado de 6,9 GiB de memoria GPU total y 12,4 GiB de RAM del sistema. El MP4 pasó una decodificación completa. La inspección del inicio, medio y final mostró una escena coherente con aspecto ilustrado pese a solicitar fotorrealismo; no sustituye una revisión temporal completa. Las miniaturas y ocho originales también se entregaron mediante conexiones HTTP persistentes mientras esa inferencia estaba activa.
 
-Se evalúa por separado un perfil de cuatro segundos a 832 × 480 y 50 pasos para acercarse a la resolución recomendada por el [repositorio oficial de Wan 2.1](https://github.com/Wan-Video/Wan2.1). Sigue siendo una prueba, sin mejora visual confirmada ni cambio del perfil rápido.
+Una prueba adicional de cuatro segundos a 832 × 480 y 50 pasos terminó en unos diez minutos y fue rechazada como mejora: el objeto principal solicitado no apareció en los fotogramas inicial, intermedio y final; predominaron bandas de color. El MP4 se decodificó correctamente y su diferencia de píxeles era distinta de cero, lo que confirma que esas comprobaciones técnicas no bastan para validar contenido. Se mantuvo el perfil rápido anterior. Aunque el [repositorio oficial de Wan 2.1](https://github.com/Wan-Video/Wan2.1) recomienda 480p para el modelo, este caso no dio un resultado utilizable. Como cambiaron tamaño, pasos y condicionamiento negativo, no se atribuye el fallo a una sola variable ni a todos los perfiles de 480p.
 
 ## Pendientes
 

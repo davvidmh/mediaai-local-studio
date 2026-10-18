@@ -45,3 +45,5 @@ Los entornos, medios y registros de una instalación real no forman parte de est
 - Interfaces completas: inicio, estado y parada de voz y música comparten el registro y el control de motores. Las reservas externas registradas se reflejan en el estado del panel.
 
 - Entrega de medios: bloques de tamaño acotado, HTTP/1.1 y solicitudes de un rango de bytes para reproducción y búsqueda. La galería utiliza miniaturas JPEG cacheadas de 384 × 216; pasaron 24 solicitudes simultáneas en el panel real y se comprobó que los originales permanecen intactos. Los enlaces de descarga conservan el archivo original. La revisión visual de la galería actualizada sigue pendiente y algunos clientes que cierran cada conexión presentan fallos intermitentes al descargar archivos grandes.
+
+- Música: el motor genera en una carpeta temporal exclusiva y se publica únicamente el audio final con sus metadatos. La gestión de archivos se probó con un motor simulado, incluyendo limpieza tras fallo y preservación de resultados existentes; esa prueba no repite ni sustituye la validación de síntesis musical.
