@@ -17,7 +17,7 @@ El objetivo es escoger la mejor calidad que se pueda demostrar en el hardware di
 - Qwen3-TTS 0.6B y 1.7B generaron muestras españolas con la misma referencia sintética y su transcripción correcta. Ambos caben en el perfil probado. La preferencia perceptual debe contrastarse mediante escucha.
 - FaceFusion con GFPGAN produjo una restauración más definida en una muestra pequeña; el alisado de piel y la fidelidad de identidad requieren revisar otras referencias.
 - ACE-Step generó instrumentales y aceptó letras mediante su API. La primera muestra con letra fue una introducción instrumental: la ejecución correcta no validó canto ni alineación de la letra.
-- Wan 2.1 1.3B produjo una vista previa de 17 fotogramas a 512 × 288, con 20 pasos. No se extrapola ese resultado a video largo o de alta resolución.
+- Wan 2.1 1.3B produjo una vista previa de 17 fotogramas a 512 × 288, con 20 pasos. Una segunda prueba completó 33 fotogramas a 832 × 480 con 50 pasos y decodificación VAE por bloques en CPU: aproximadamente 18 minutos, pico observado de 7,2 GiB de memoria GPU total y 12,1 GiB de RAM del sistema. El MP4 pasó una decodificación completa, pero los fotogramas inicial y final presentaron bandas visibles en el fondo y encuadre casi estático. Este perfil todavía no se recomienda como mejora de calidad. Se evalúa VAE en GPU sin sustituir la configuración anterior. No se extrapolan estas muestras a video largo ni se confunde una diferencia de píxeles con movimiento útil.
 
 ## Pendientes
 
