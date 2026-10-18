@@ -37,3 +37,9 @@ workspace/
 ```
 
 Los entornos, medios y registros de una instalación real no forman parte de esta publicación.
+
+## Controles integrados
+
+- Imagen: descripción, selección entre detalle alto a 1024 píxeles y vista rápida a 512, vista previa y descarga. La creación y entrega del PNG se verificaron mediante la API local; la revisión visual de todos los controles del navegador sigue pendiente.
+- Voz: selección de Qwen3-TTS 1.7B o 0.6B y transcripción opcional de la referencia. Una transcripción guardada junto a la muestra se aprovecha automáticamente. Con transcripción se usa el condicionamiento completo; sin ella se conserva la alternativa mediante vector de voz. La prueba del selector nuevo a través del panel está pendiente.
+- Interfaces completas: inicio, estado y parada de voz y música comparten el registro y el control de motores. Las reservas externas registradas se reflejan en el estado del panel.
