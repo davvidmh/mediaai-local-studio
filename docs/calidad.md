@@ -13,6 +13,7 @@ El objetivo es escoger la mejor calidad que se pueda demostrar en el hardware di
 ## Resultados generales comprobados
 
 - FLUX.2 Klein 4B base FP8 produjo una imagen de 1024 × 1024 en el perfil de 8 GB VRAM y 16 GB RAM, usando descarga dinámica de pesos y VAE en CPU. La prueba de cartel presentó un error ortográfico: no se promete texto exacto generado por el modelo.
+- La edición por instrucciones con FLUX.2 cambió el color de un objeto en una referencia sintética a 1024 × 1024. El resultado mantuvo visualmente la composición en esa muestra, con variaciones de píxeles fuera del objeto. El trabajo tardó aproximadamente dos minutos y medio. Para conservar exactamente la zona exterior existe un flujo distinto de inpainting con composición enmascarada. La validación de importación y diseño del flujo en la interfaz visual se registra por separado.
 - Qwen3-TTS 0.6B y 1.7B generaron muestras españolas con la misma referencia sintética y su transcripción correcta. Ambos caben en el perfil probado. La preferencia perceptual debe contrastarse mediante escucha.
 - FaceFusion con GFPGAN produjo una restauración más definida en una muestra pequeña; el alisado de piel y la fidelidad de identidad requieren revisar otras referencias.
 - ACE-Step generó instrumentales y aceptó letras mediante su API. La primera muestra con letra fue una introducción instrumental: la ejecución correcta no validó canto ni alineación de la letra.

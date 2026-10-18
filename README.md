@@ -8,7 +8,7 @@ Este repositorio contiene documentación y configuración ficticia. No incluye m
 
 | Área | Herramientas | Estado comprobado |
 | --- | --- | --- |
-| Imágenes | ComfyUI, DreamShaper 8, FLUX.2 Klein 4B base FP8 | Generación local a 512 y 1024 píxeles; edición por máscaras y ampliación disponibles |
+| Imágenes | ComfyUI, DreamShaper 8, FLUX.2 Klein 4B base FP8 | Generación a 512/1024 píxeles y edición por instrucciones a 1024 probadas; máscaras y ampliación disponibles |
 | Voz | Qwen3-TTS 0.6B y 1.7B Base | Síntesis en español y clonación con referencia sintética; selector y transcripción probados mediante la API del panel; revisión visual pendiente |
 | Música | ACE-Step 1.5 Turbo | Instrumentales locales; entrada de letras e idioma integrada, canto todavía en validación |
 | Rostros | FaceFusion y GFPGAN 1.4 | Intercambio y restauración probados con material de demostración; calidad dependiente de la referencia |
