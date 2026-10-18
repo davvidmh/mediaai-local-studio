@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.gitattributes
+!README.md
+!docs/
+!docs/*.md
+!examples/
+!examples/config.example.json

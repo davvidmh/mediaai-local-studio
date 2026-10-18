@@ -1,0 +1,21 @@
+{
+  "example_only": true,
+  "workspace": "./workspace",
+  "bind_host": "127.0.0.1",
+  "max_concurrent_heavy_engines": 1,
+  "paths": {
+    "models": "./workspace/models",
+    "inputs": "./workspace/inputs",
+    "outputs": "./workspace/outputs"
+  },
+  "profiles": {
+    "image_quality": "flux2-klein-4b-base-fp8",
+    "image_preview": "dreamshaper-8",
+    "voice_candidates": [
+      "qwen3-tts-0.6b-base",
+      "qwen3-tts-1.7b-base"
+    ],
+    "music": "ace-step-1.5-turbo",
+    "video_preview": "wan2.1-t2v-1.3b"
+  }
+}
